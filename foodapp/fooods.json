@@ -1,0 +1,202 @@
+{
+  "foods": {
+    "low": {
+      "foodId1": {
+        "name": "Banana",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg",
+        "calories": "89",
+        "contents": "Potassium, Vitamin C"
+      },
+      "foodId2": {
+        "name": "Apple",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg",
+        "calories": "52",
+        "contents": "Fiber, Vitamin C"
+      },
+      "foodId3": {
+        "name": "Carrot",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Vegetable-Carrot-Bundle-wStalks.jpg/640px-Vegetable-Carrot-Bundle-wStalks.jpg",
+        "calories": "41",
+        "contents": "Beta-carotene, Vitamin A"
+      },
+      "foodId4": {
+        "name": "Cucumber",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Cucumber_plants.jpg/640px-Cucumber_plants.jpg",
+        "calories": "16",
+        "contents": "Water, Fiber"
+      },
+      "foodId3": {
+        "name": "Drumstick",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Drumsticks_or_Moringa.jpg/640px-Drumsticks_or_Moringa.jpg",
+        "calories": "37",
+        "contents": "Iron, Calcium"
+      },
+      "foodId6": {
+        "name": "Oatmeal",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Blueberry_oatmeal_4.jpg/640px-Blueberry_oatmeal_4.jpg",
+        "calories": "68",
+        "contents": "Fiber, Complex Carbs"
+      },
+      "foodId7": {
+        "name": "Almonds",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Almonds_-_in_shell%2C_shell_cracked_open%2C_shelled%2C_blanched.jpg/640px-Almonds_-_in_shell%2C_shell_cracked_open%2C_shelled%2C_blanched.jpg",
+        "calories": "160",
+        "contents": "Healthy Fats, Magnesium"
+      },
+      "foodId8": {
+        "name": "Spinach",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pseudoperonospora_farinosa_f.sp._spinaciae_at_Spinacia_oleracea_%289%29.jpg/640px-Pseudoperonospora_farinosa_f.sp._spinaciae_at_Spinacia_oleracea_%289%29.jpg",
+        "calories": "23",
+        "contents": "Iron, Vitamin K"
+      },
+      "foodId9": {
+        "name": "Avocado",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/RipeQuoinAvocado.jpg/640px-RipeQuoinAvocado.jpg",
+        "calories": "240",
+        "contents": "Healthy Fats, Potassium"
+      },
+      "foodId10": {
+        "name": "Blueberries",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Blueberries.jpg",
+        "calories": "85",
+        "contents": "Antioxidants, Fiber"
+      },
+      "foodId11": {
+        "name": "Guava",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Fresh_Guava.jpg/640px-Fresh_Guava.jpg",
+        "calories": "68",
+        "contents": "Vitamin C, Antioxidants"
+      },
+      "foodId12": {
+        "name": "Amla Juice",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Amla_%28Indian_Gooseberry%29_Juice.JPG/640px-Amla_%28Indian_Gooseberry%29_Juice.JPG",
+        "calories": "45",
+        "contents": "Vitamin C, Antioxidants"
+      }
+    },
+    "medium": {
+      "foodId11": {
+        "name": "Salmon",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/King_salmon_by_Nick_Longrich.jpg/640px-King_salmon_by_Nick_Longrich.jpg",
+        "calories": "206",
+        "contents": "Omega-3, Protein"
+      },
+      "foodId12": {
+        "name": "Eggs",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Country_Eggs_in_Salem.jpg/640px-Country_Eggs_in_Salem.jpg",
+        "calories": "78",
+        "contents": "Protein, Choline"
+      },
+      "foodId13": {
+        "name": "Dark Chocolate",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Green_and_Black%27s_dark_chocolate_bar_2.jpg/640px-Green_and_Black%27s_dark_chocolate_bar_2.jpg",
+        "calories": "150",
+        "contents": "Antioxidants, Magnesium"
+      },
+      "foodId14": {
+        "name": "Sweet Potato",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Purple_sweet_potato_bought_in_Yoshiwara.jpg/640px-Purple_sweet_potato_bought_in_Yoshiwara.jpg",
+        "calories": "112",
+        "contents": "Fiber, Vitamin A"
+      },
+      "foodId15": {
+        "name": "Bitter Gourd",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Bitter_Gourd.JPG/640px-Bitter_Gourd.JPG",
+        "calories": "17",
+        "contents": "Vitamin C, Antioxidants"
+      },
+      "foodId16": {
+        "name": "Bhindi Fry",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Bhendi_Fry.jpg/640px-Bhendi_Fry.jpg",
+        "calories": "120",
+        "contents": "Vitamin K, Fiber"
+      },
+      "foodId17": {
+        "name": "Pumpkin Seeds",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Pumpkin_seed._img_035.jpg/640px-Pumpkin_seed._img_035.jpg",
+        "calories": "126",
+        "contents": "Zinc, Healthy Fats"
+      },
+      "foodId18": {
+        "name": "Chickpea Salad",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Chickpea_Chop_Salad_%289484308160%29.jpg/640px-Chickpea_Chop_Salad_%289484308160%29.jpg",
+        "calories": "190",
+        "contents": "Protein, Fiber"
+      },
+      "foodId19": {
+        "name": "Broccoli",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Broccoli_and_cross_section_edit.jpg/640px-Broccoli_and_cross_section_edit.jpg",
+        "calories": "55",
+        "contents": "Fiber, Vitamin C"
+      },
+      "foodId20": {
+        "name": "Oranges",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/640px-Orange-Fruit-Pieces.jpg",
+        "calories": "62",
+        "contents": "Vitamin C, Antioxidants"
+      },
+        "foodId21": {
+        "name": "Paneer Tikka",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Paneer_Tikka_Shashlik_PK012.jpg/640px-Paneer_Tikka_Shashlik_PK012.jpg",
+        "calories": "150",
+        "contents": "Protein, Calcium"
+      }
+    },
+    "high": {
+      "foodId21": {
+        "name": "Walnuts",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Walnuts_-_whole_and_open_with_halved_kernel.jpg/640px-Walnuts_-_whole_and_open_with_halved_kernel.jpg",
+        "calories": "185",
+        "contents": "Omega-3, Healthy Fats"
+      },
+      "foodId22": {
+        "name": "Chia Seeds",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Chia_Seeds_macro_2.jpg/640px-Chia_Seeds_macro_2.jpg",
+        "calories": "138",
+        "contents": "Fiber, Omega-3"
+      },
+      "foodId23": {
+        "name": "Green Tea",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Green_tea_box_with_leaf.jpg/640px-Green_tea_box_with_leaf.jpg",
+        "calories": "0",
+        "contents": "L-theanine, Antioxidants"
+      },
+        "foodId25": {
+        "name": "Prawn Curry",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Making_green_curry_with_shrimp.jpg/640px-Making_green_curry_with_shrimp.jpg",
+        "calories": "200",
+        "contents": "Omega-3, Protein"
+      },
+      "foodId24": {
+        "name": "Mutton Curry",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Kerala_mutton_curry.jpg/640px-Kerala_mutton_curry.jpg",
+        "calories": "300",
+        "contents": "Protein, Iron"
+      },
+      "foodId27": {
+        "name": "Pineapple",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Ananas_comosus%2C_Dole_Pineapple_Plantation%2C_Oahu%2C_Hawaii%2C_USA2.jpg/640px-Ananas_comosus%2C_Dole_Pineapple_Plantation%2C_Oahu%2C_Hawaii%2C_USA2.jpg",
+        "calories": "82",
+        "contents": "Vitamin C, Bromelain"
+      },
+      "foodId28": {
+        "name": "Mushrooms",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Edible_fungi_in_basket_2012_G1.jpg/640px-Edible_fungi_in_basket_2012_G1.jpg",
+        "calories": "15",
+        "contents": "Vitamin D, Antioxidants"
+      },
+       "foodId29": {
+        "name": "Masala Dosa",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Masala_dosa_01.jpg/640px-Masala_dosa_01.jpg",
+        "calories": "200",
+        "contents": "Fermented Rice, Protein"
+      },
+      "foodId30": {
+        "name": "Peanut Butter",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/PeanutButter.jpg/640px-PeanutButter.jpg",
+        "calories": "190",
+        "contents": "Healthy Fats, Protein"
+      }
+    }
+  }
+}

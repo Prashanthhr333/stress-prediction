@@ -1,0 +1,6 @@
+<resources>
+    <color name="text_primary">#000000</color> <!-- Black text -->
+    <color name="text_secondary">#757575</color> <!-- Grey text -->
+    <color name="text_highlight">#FF5722</color> <!-- Highlight text (e.g., stress level) -->
+    <color name="white">#FFFFFF</color> <!-- White background -->
+</resources>

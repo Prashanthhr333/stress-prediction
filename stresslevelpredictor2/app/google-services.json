@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "499198019844",
+    "project_id": "stressfood",
+    "storage_bucket": "stressfood.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499198019844:android:26e35e296e5f4e4a43a851",
+        "android_client_info": {
+          "package_name": "com.example.stresslevelpredictor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS7wqiw8VrX9MC4-J5z8SF4szexckF1eA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

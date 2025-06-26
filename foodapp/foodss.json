@@ -1,0 +1,208 @@
+{
+  "foods": {
+    "low": {
+      "foodId1": {
+        "name": "Banana",
+        "imageUrl": "https://example.com/banana.jpg",
+        "calories": "89",
+        "contents": "Potassium, Vitamin C"
+      },
+      "foodId2": {
+        "name": "Apple",
+        "imageUrl": "https://example.com/apple.jpg",
+        "calories": "52",
+        "contents": "Fiber, Vitamin C"
+      },
+      "foodId3": {
+        "name": "Carrot",
+        "imageUrl": "https://example.com/carrot.jpg",
+        "calories": "41",
+        "contents": "Beta-carotene, Vitamin A"
+      },
+      "foodId4": {
+        "name": "Cucumber",
+        "imageUrl": "https://example.com/cucumber.jpg",
+        "calories": "16",
+        "contents": "Water, Fiber"
+      },
+      "foodId5": {
+       "name": "Papaya",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Papaya.jpg",
+        "calories": "43",
+        "contents": "Vitamin C, Fiber"
+      },
+      "foodId6": {
+        "name": "Oatmeal",
+        "imageUrl": "https://example.com/oatmeal.jpg",
+        "calories": "68",
+        "contents": "Fiber, Complex Carbs"
+      },
+      "foodId7": {
+        "name": "Almonds",
+        "imageUrl": "https://example.com/almonds.jpg",
+        "calories": "160",
+        "contents": "Healthy Fats, Magnesium"
+      },
+      "foodId8": {
+        "name": "Spinach",
+        "imageUrl": "https://example.com/spinach.jpg",
+        "calories": "23",
+        "contents": "Iron, Vitamin K"
+      },
+      "foodId9": {
+        "name": "Avocado",
+        "imageUrl": "https://example.com/avocado.jpg",
+        "calories": "240",
+        "contents": "Healthy Fats, Potassium"
+      },
+      "foodId10": {
+        "name": "Blueberries",
+        "imageUrl": "https://example.com/blueberries.jpg",
+        "calories": "85",
+        "contents": "Antioxidants, Fiber"
+      },
+      "foodId11": {
+        "name": "Guava",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Guava_2.jpg",
+        "calories": "68",
+        "contents": "Vitamin C, Antioxidants"
+      },
+      "foodId12": {
+        "name": "Amla Juice",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Amla_Juice.jpg",
+        "calories": "45",
+        "contents": "Vitamin C, Antioxidants"
+      },
+      "foodId13": {
+        "name": "Turmeric Milk",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Turmeric_Milk.jpg",
+        "calories": "50",
+        "contents": "Calcium, Antioxidants"
+      }
+    },
+    "medium": {
+      "foodId13": {
+        "name": "Paneer Tikka",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Paneer_Tikka.jpg",
+        "calories": "150",
+        "contents": "Protein, Calcium"
+      },
+      "foodId12": {
+        "name": "Eggs",
+        "imageUrl": "https://example.com/eggs.jpg",
+        "calories": "78",
+        "contents": "Protein, Choline"
+      },
+      "foodId13": {
+        "name": "Dark Chocolate",
+        "imageUrl": "https://example.com/darkchocolate.jpg",
+        "calories": "150",
+        "contents": "Antioxidants, Magnesium"
+      },
+      "foodId14": {
+        "name": "Sweet Potato",
+        "imageUrl": "https://example.com/sweetpotato.jpg",
+        "calories": "112",
+        "contents": "Fiber, Vitamin A"
+      },
+      "foodId15": {
+        "name": "Turkey",
+        "imageUrl": "https://example.com/turkey.jpg",
+        "calories": "135",
+        "contents": "Tryptophan, Protein"
+      },
+      "foodId18": {
+        "name": "Bhindi Fry",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Bhindi_Fry.jpg",
+        "calories": "120",
+        "contents": "Vitamin K, Fiber"
+      },
+      "foodId17": {
+        "name": "Pumpkin Seeds",
+        "imageUrl": "https://example.com/pumpkinseeds.jpg",
+        "calories": "126",
+        "contents": "Zinc, Healthy Fats"
+      },
+       "foodId23": {
+        "name": "Chickpea Salad",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Chickpea_Salad.jpg",
+        "calories": "190",
+        "contents": "Protein, Fiber"
+      },
+      "foodId19": {
+        "name": "Broccoli",
+        "imageUrl": "https://example.com/broccoli.jpg",
+        "calories": "55",
+        "contents": "Fiber, Vitamin C"
+      },
+      "foodId20": {
+        "name": "Oranges",
+        "imageUrl": "https://example.com/oranges.jpg",
+        "calories": "62",
+        "contents": "Vitamin C, Antioxidants"
+      }
+    },
+    "high": {
+      "foodId21": {
+        "name": "Walnuts",
+        "imageUrl": "https://example.com/walnuts.jpg",
+        "calories": "185",
+        "contents": "Omega-3, Healthy Fats"
+      },
+      "foodId22": {
+        "name": "Chia Seeds",
+        "imageUrl": "https://example.com/chiaseeds.jpg",
+        "calories": "138",
+        "contents": "Fiber, Omega-3"
+      },
+      "foodId23": {
+        "name": "Green Tea",
+        "imageUrl": "https://example.com/greentea.jpg",
+        "calories": "0",
+        "contents": "L-theanine, Antioxidants"
+      },
+      "foodId24": {
+        "name": "Chamomile Tea",
+        "imageUrl": "https://example.com/chamomiletea.jpg",
+        "calories": "2",
+        "contents": "Flavonoids, Relaxants"
+      },
+      "foodId25": {
+        "name": "Whole Grain Bread",
+        "imageUrl": "https://example.com/wholegrainbread.jpg",
+        "calories": "80",
+        "contents": "Fiber, Complex Carbs"
+      },
+      "foodId26": {
+        "name": "Lean Beef",
+        "imageUrl": "https://example.com/leanbeef.jpg",
+        "calories": "250",
+        "contents": "Protein, Iron"
+      },
+      "foodId27": {
+        "name": "Pineapple",
+        "imageUrl": "https://example.com/pineapple.jpg",
+        "calories": "82",
+        "contents": "Vitamin C, Bromelain"
+      },
+      "foodId28": {
+        "name": "Mushrooms",
+        "imageUrl": "https://example.com/mushrooms.jpg",
+        "calories": "15",
+        "contents": "Vitamin D, Antioxidants"
+      },
+      "foodId29": {
+        "name": "Hummus",
+        "imageUrl": "https://example.com/hummus.jpg",
+        "calories": "160",
+        "contents": "Protein, Healthy Fats"
+      },
+      "foodId30": {
+        "name": "Peanut Butter",
+        "imageUrl": "https://example.com/peanutbutter.jpg",
+        "calories": "190",
+        "contents": "Healthy Fats, Protein"
+      }
+    }
+  }
+}

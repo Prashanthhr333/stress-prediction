@@ -1,0 +1,156 @@
+package com.example.stresslevelpredictor;
+
+import android.content.Context;
+import android.content.res.AssetFileDescriptor;
+import android.content.res.AssetManager;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
+import org.json.JSONArray;
+import org.json.JSONObject;
+import org.tensorflow.lite.Interpreter;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+import java.nio.MappedByteBuffer;
+import java.nio.channels.FileChannel;
+import java.util.ArrayList;
+import java.util.List;
+
+public class StressPredictor extends AppCompatActivity {
+
+    private Interpreter tflite;
+    private static final String MODEL_PATH = "stress_model2.tflite";
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        EditText inputHumidity = findViewById(R.id.inputHumidity);
+        EditText inputTemperature = findViewById(R.id.inputTemperature);
+        EditText inputStepCount = findViewById(R.id.inputStepCount);
+        Button predictButton = findViewById(R.id.predictButton);
+        Button trackButton = findViewById(R.id.trackButton);
+        TextView resultText = findViewById(R.id.resultText);
+        LinearLayout foodContainer = findViewById(R.id.foodContainer);
+
+        try {
+            tflite = new Interpreter(loadModelFile(getAssets()));
+        } catch (IOException e) {
+            resultText.setText("Error loading model: " + e.getMessage());
+            return;
+        }
+
+        predictButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    float humidity = Float.parseFloat(inputHumidity.getText().toString());
+                    float temperature = Float.parseFloat(inputTemperature.getText().toString());
+                    float stepCount = Float.parseFloat(inputStepCount.getText().toString());
+
+                    String prediction = predictStressLevel(humidity, temperature, stepCount);
+                    resultText.setText("Predicted Stress Level: " + prediction);
+
+                    List<String> foodRecommendations = getFoodRecommendations(StressPredictor.this, prediction);
+
+                    foodContainer.removeAllViews();
+                    for (String food : foodRecommendations) {
+                        CheckBox checkBox = new CheckBox(StressPredictor.this);
+                        checkBox.setText(food);
+                        foodContainer.addView(checkBox);
+                    }
+                } catch (NumberFormatException e) {
+                    resultText.setText("Please enter valid numbers.");
+                }
+            }
+        });
+
+        trackButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                StringBuilder selectedFoods = new StringBuilder("You selected:\n");
+                for (int i = 0; i < foodContainer.getChildCount(); i++) {
+                    CheckBox checkBox = (CheckBox) foodContainer.getChildAt(i);
+                    if (checkBox.isChecked()) {
+                        selectedFoods.append("- ").append(checkBox.getText().toString()).append("\n");
+                    }
+                }
+                resultText.setText(selectedFoods.toString());
+            }
+        });
+    }
+
+    private MappedByteBuffer loadModelFile(AssetManager assets) throws IOException {
+        AssetFileDescriptor fileDescriptor = assets.openFd(MODEL_PATH);
+        FileInputStream inputStream = new FileInputStream(fileDescriptor.getFileDescriptor());
+        FileChannel fileChannel = inputStream.getChannel();
+        long startOffset = fileDescriptor.getStartOffset();
+        long declaredLength = fileDescriptor.getDeclaredLength();
+        return fileChannel.map(FileChannel.MapMode.READ_ONLY, startOffset, declaredLength);
+    }
+
+    public String predictStressLevel(float humidity, float temperature, float stepCount) {
+        // Preprocess input
+        float[] input = new float[]{
+                (humidity - 20.0f) / 5.78f,
+                (temperature - 89.0f) / 5.78f,
+                (stepCount - 100.14f) / 58.18f
+        };
+
+        ByteBuffer inputBuffer = ByteBuffer.allocateDirect(4 * input.length).order(ByteOrder.nativeOrder());
+        for (float value : input) {
+            inputBuffer.putFloat(value);
+        }
+
+        // Prepare output
+        float[][] output = new float[1][3];
+
+        // Run inference
+        tflite.run(inputBuffer, output);
+
+        // Map output to stress level
+        String[] stressMapping = {"Low Stress", "Medium Stress", "High Stress"};
+        int predictedIndex = argMax(output[0]);
+        return stressMapping[predictedIndex];
+    }
+
+    private int argMax(float[] array) {
+        int maxIndex = 0;
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] > array[maxIndex]) {
+                maxIndex = i;
+            }
+        }
+        return maxIndex;
+    }
+
+    public List<String> getFoodRecommendations(Context context, String stressLevel) {
+        List<String> recommendations = new ArrayList<>();
+        try {
+            InputStream inputStream = context.getAssets().open("food.json");
+            byte[] buffer = new byte[inputStream.available()];
+            inputStream.read(buffer);
+            inputStream.close();
+            String jsonString = new String(buffer, "UTF-8");
+
+            JSONObject jsonObject = new JSONObject(jsonString);
+            JSONArray foodArray = jsonObject.getJSONArray(stressLevel);
+            for (int i = 0; i < foodArray.length(); i++) {
+                recommendations.add(foodArray.getString(i));
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return recommendations;
+    }
+}

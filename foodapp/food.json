@@ -1,0 +1,226 @@
+{
+  "foods": {
+    "low": {
+      "foodId1": {
+        "name": "Cucumber Raita",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cucumber_raita.jpg",
+        "calories": "40",
+        "contents": "Cucumber, Yogurt"
+      },
+      "foodId2": {
+        "name": "Papaya",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Papaya.jpg",
+        "calories": "43",
+        "contents": "Vitamin C, Fiber"
+      },
+      "foodId3": {
+        "name": "Guava",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Guava_2.jpg",
+        "calories": "68",
+        "contents": "Vitamin C, Antioxidants"
+      },
+      "foodId4": {
+        "name": "Bottle Gourd Curry",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Bottle_Gourd_Curry.jpg",
+        "calories": "50",
+        "contents": "Fiber, Water"
+      },
+      "foodId5": {
+        "name": "Puffed Rice",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Puffed_rice.jpg",
+        "calories": "56",
+        "contents": "Carbohydrates"
+      },
+      "foodId6": {
+        "name": "Radish Salad",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Radish_salad.jpg",
+        "calories": "25",
+        "contents": "Fiber, Vitamin C"
+      },
+      "foodId7": {
+        "name": "Tomato Rasam",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Tomato_Rasam.jpg",
+        "calories": "40",
+        "contents": "Vitamin C, Spices"
+      },
+      "foodId8": {
+        "name": "Spinach Dal",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Spinach_dal.jpg",
+        "calories": "80",
+        "contents": "Iron, Protein"
+      },
+      "foodId9": {
+        "name": "Coconut Water",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Coconut_water.jpg",
+        "calories": "19",
+        "contents": "Electrolytes, Potassium"
+      },
+      "foodId10": {
+        "name": "Moong Sprouts",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Moong_sprouts.jpg",
+        "calories": "30",
+        "contents": "Protein, Fiber"
+      },
+      "foodId11": {
+        "name": "Amla Juice",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Amla_Juice.jpg",
+        "calories": "45",
+        "contents": "Vitamin C, Antioxidants"
+      },
+      "foodId12": {
+        "name": "Turmeric Milk",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Turmeric_Milk.jpg",
+        "calories": "50",
+        "contents": "Calcium, Antioxidants"
+      }
+    },
+    "medium": {
+      "foodId13": {
+        "name": "Paneer Tikka",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Paneer_Tikka.jpg",
+        "calories": "150",
+        "contents": "Protein, Calcium"
+      },
+      "foodId14": {
+        "name": "Dhokla",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Dhokla.jpg",
+        "calories": "120",
+        "contents": "Protein, Fiber"
+      },
+      "foodId15": {
+        "name": "Masala Omelette",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Masala_omelette.jpg",
+        "calories": "130",
+        "contents": "Protein, Choline"
+      },
+      "foodId16": {
+        "name": "Vegetable Upma",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Vegetable_Upma.jpg",
+        "calories": "150",
+        "contents": "Fiber, Complex Carbs"
+      },
+      "foodId17": {
+        "name": "Sweet Potato Chaat",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Sweet_potato_chaat.jpg",
+        "calories": "112",
+        "contents": "Vitamin A, Fiber"
+      },
+      "foodId18": {
+        "name": "Bhindi Fry",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Bhindi_Fry.jpg",
+        "calories": "120",
+        "contents": "Vitamin K, Fiber"
+      },
+      "foodId19": {
+        "name": "Idli Sambhar",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Idli_Sambhar.jpg",
+        "calories": "180",
+        "contents": "Protein, Fiber"
+      },
+      "foodId20": {
+        "name": "Ragi Dosa",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ragi_Dosa.jpg",
+        "calories": "140",
+        "contents": "Calcium, Fiber"
+      },
+      "foodId21": {
+        "name": "Poha",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Poha.jpg",
+        "calories": "110",
+        "contents": "Iron, Carbs"
+      },
+      "foodId22": {
+        "name": "Rajma",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Rajma.jpg",
+        "calories": "140",
+        "contents": "Protein, Fiber"
+      },
+      "foodId23": {
+        "name": "Chickpea Salad",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Chickpea_Salad.jpg",
+        "calories": "190",
+        "contents": "Protein, Fiber"
+      },
+      "foodId24": {
+        "name": "Tandoori Chicken",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Tandoori_Chicken.jpg",
+        "calories": "230",
+        "contents": "Protein, Spices"
+      }
+    },
+    "high": {
+      "foodId25": {
+        "name": "Biryani",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Biryani.jpg",
+        "calories": "300",
+        "contents": "Carbs, Protein"
+      },
+      "foodId26": {
+        "name": "Butter Chicken",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Butter_Chicken.jpg",
+        "calories": "400",
+        "contents": "Protein, Fats"
+      },
+      "foodId27": {
+        "name": "Gajar Ka Halwa",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Gajar_ka_Halwa.jpg",
+        "calories": "250",
+        "contents": "Carbs, Vitamin A"
+      },
+      "foodId28": {
+        "name": "Mutton Curry",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Mutton_Curry.jpg",
+        "calories": "340",
+        "contents": "Protein, Iron"
+      },
+      "foodId29": {
+        "name": "Naan",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Naan.jpg",
+        "calories": "260",
+        "contents": "Carbs, Fiber"
+      },
+      "foodId30": {
+        "name": "Pav Bhaji",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Pav_Bhaji.jpg",
+        "calories": "300",
+        "contents": "Carbs, Vitamins"
+      },
+      "foodId31": {
+        "name": "Chole Bhature",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Chole_Bhature.jpg",
+        "calories": "450",
+        "contents": "Protein, Carbs"
+      },
+      "foodId32": {
+        "name": "Fish Curry",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Fish_Curry.jpg",
+        "calories": "230",
+        "contents": "Omega-3, Protein"
+      },
+      "foodId33": {
+        "name": "Malai Kofta",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Malai_Kofta.jpg",
+        "calories": "300",
+        "contents": "Fats, Protein"
+      },
+      "foodId34": {
+        "name": "Kheer",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Kheer.jpg",
+        "calories": "250",
+        "contents": "Carbs, Calcium"
+      },
+      "foodId35": {
+        "name": "Lassi",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Lassi.jpg",
+        "calories": "210",
+        "contents": "Calcium, Probiotics"
+      },
+      "foodId36": {
+        "name": "Masala Dosa",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Masala_Dosa.jpg",
+        "calories": "270",
+        "contents": "Carbs, Fiber"
+      }
+    }
+  }
+}
