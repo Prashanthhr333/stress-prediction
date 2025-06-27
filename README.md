@@ -1,15 +1,15 @@
 
-# Stress Prediction App 😌📱
+# Stress Prediction App 📱
 
 A smart Android app that helps monitor stress levels and provides personalized recommendations based on data inputs like humidity,temperature and step count.
 
-## 🔥 Features
+## Features
 - Real-time stress detection
 - Emergency intervention system
 - Personalized food suggestions
 - Clean and responsive UI
 
-## 📥 How to Clone & Run in Android Studio
+## How to Clone & Run in Android Studio
 
 ### Prerequisites
 - Android Studio 
