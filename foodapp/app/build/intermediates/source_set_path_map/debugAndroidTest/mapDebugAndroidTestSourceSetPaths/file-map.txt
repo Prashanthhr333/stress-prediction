@@ -1,0 +1,5 @@
+com.example.foodapp.test.app-androidTest-0 C:\MAD lab\foodapp\app\build\generated\res\resValues\androidTest\debug
+com.example.foodapp.test.app-mergeDebugAndroidTestResources-1 C:\MAD lab\foodapp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.foodapp.test.app-mergeDebugAndroidTestResources-2 C:\MAD lab\foodapp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.foodapp.test.app-debugAndroidTest-3 C:\MAD lab\foodapp\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.foodapp.test.app-core-1.6.1-4 C:\Users\prash\.gradle\caches\transforms-4\1389203ca1eba15744a1d81a69b59780\transformed\core-1.6.1\res

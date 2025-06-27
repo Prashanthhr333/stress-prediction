@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:padding="16dp">
+
+    <!-- App Header -->
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Recommendations for Stress"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#111111"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <!-- App Subtitle -->
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover foods that help you relax and stay healthy!"
+        android:textSize="16sp"
+        android:textColor="#111111"
+        android:layout_below="@id/tvHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <!-- Buttons Container -->
+    <LinearLayout
+        android:id="@+id/btnContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSubtitle"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- Low Stress Button -->
+        <Button
+            android:id="@+id/btnLow"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_rounded_low"
+            android:text="Low Stress Foods"
+            android:textColor="#111111"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Medium Stress Button -->
+        <Button
+            android:id="@+id/btnMedium"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_rounded_medium"
+            android:text="Medium Stress Foods"
+            android:textColor="#111111"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- High Stress Button -->
+        <Button
+            android:id="@+id/btnHigh"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/btn_rounded_high"
+            android:text="High Stress Foods"
+            android:textColor="#111111"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- GridView for Selected Foods -->
+    <GridView
+        android:id="@+id/gridViewSelectedFoods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnContainer"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:horizontalSpacing="16dp"
+        android:numColumns="2"
+        android:padding="8dp"
+        android:verticalSpacing="16dp" />
+
+    <!-- TextView for Selected Foods Message -->
+    <TextView
+        android:id="@+id/tvSelectedFoods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/gridViewSelectedFoods"
+        android:layout_marginTop="16dp"
+        android:text="You've selected these foods!"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

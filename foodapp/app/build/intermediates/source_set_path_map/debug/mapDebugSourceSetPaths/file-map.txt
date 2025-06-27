@@ -1,0 +1,47 @@
+com.example.foodapp-pngs-0 C:\MAD lab\foodapp\app\build\generated\res\pngs\debug
+com.example.foodapp-res-1 C:\MAD lab\foodapp\app\build\generated\res\processDebugGoogleServices
+com.example.foodapp-resValues-2 C:\MAD lab\foodapp\app\build\generated\res\resValues\debug
+com.example.foodapp-packageDebugResources-3 C:\MAD lab\foodapp\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.foodapp-packageDebugResources-4 C:\MAD lab\foodapp\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.foodapp-debug-5 C:\MAD lab\foodapp\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.foodapp-debug-6 C:\MAD lab\foodapp\app\src\debug\res
+com.example.foodapp-main-7 C:\MAD lab\foodapp\app\src\main\res
+com.example.foodapp-play-services-measurement-api-22.1.2-8 C:\Users\prash\.gradle\caches\transforms-4\19768dba1c978c811c6fabca90171c7c\transformed\play-services-measurement-api-22.1.2\res
+com.example.foodapp-lifecycle-viewmodel-2.6.2-9 C:\Users\prash\.gradle\caches\transforms-4\1a71585f04c999b8bda879925d62a1bf\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.foodapp-viewpager2-1.0.0-10 C:\Users\prash\.gradle\caches\transforms-4\1ec46774ed596949e7811678213e4215\transformed\viewpager2-1.0.0\res
+com.example.foodapp-lifecycle-runtime-2.6.2-11 C:\Users\prash\.gradle\caches\transforms-4\2097f93ddd48a2f03fe0d8051bc4d716\transformed\lifecycle-runtime-2.6.2\res
+com.example.foodapp-appcompat-1.7.0-12 C:\Users\prash\.gradle\caches\transforms-4\211d62f123368b88bb5ba2d0b72805ed\transformed\appcompat-1.7.0\res
+com.example.foodapp-lifecycle-process-2.6.2-13 C:\Users\prash\.gradle\caches\transforms-4\3860a9107efb87f451712f76212e0493\transformed\lifecycle-process-2.6.2\res
+com.example.foodapp-credentials-1.2.0-rc01-14 C:\Users\prash\.gradle\caches\transforms-4\3f4d8612c7c67675cd3c983676861f36\transformed\credentials-1.2.0-rc01\res
+com.example.foodapp-credentials-play-services-auth-1.2.0-rc01-15 C:\Users\prash\.gradle\caches\transforms-4\4164800d86fb7202ef3770dc9490534f\transformed\credentials-play-services-auth-1.2.0-rc01\res
+com.example.foodapp-play-services-basement-18.4.0-16 C:\Users\prash\.gradle\caches\transforms-4\42529c8e240b3b163306ccbb92963172\transformed\play-services-basement-18.4.0\res
+com.example.foodapp-constraintlayout-2.2.0-17 C:\Users\prash\.gradle\caches\transforms-4\4274139a39e0d4be25dc679ce0ce9a38\transformed\constraintlayout-2.2.0\res
+com.example.foodapp-core-1.13.0-18 C:\Users\prash\.gradle\caches\transforms-4\45aaf0da98d999d3bd6080da49d74b7b\transformed\core-1.13.0\res
+com.example.foodapp-startup-runtime-1.1.1-19 C:\Users\prash\.gradle\caches\transforms-4\52d1896f465929cad09177d7d7d03e88\transformed\startup-runtime-1.1.1\res
+com.example.foodapp-ads-adservices-java-1.0.0-beta05-20 C:\Users\prash\.gradle\caches\transforms-4\585221f56fa693ac0ad8028bee917f70\transformed\ads-adservices-java-1.0.0-beta05\res
+com.example.foodapp-emoji2-views-helper-1.3.0-21 C:\Users\prash\.gradle\caches\transforms-4\5af8fc2df18f89a62318c7103cdc6ace\transformed\emoji2-views-helper-1.3.0\res
+com.example.foodapp-play-services-auth-20.7.0-22 C:\Users\prash\.gradle\caches\transforms-4\643d863e21ce163d901672245dcb1192\transformed\play-services-auth-20.7.0\res
+com.example.foodapp-ads-adservices-1.0.0-beta05-23 C:\Users\prash\.gradle\caches\transforms-4\65cdeb4a004c3b739c823b831b95644a\transformed\ads-adservices-1.0.0-beta05\res
+com.example.foodapp-material-1.12.0-24 C:\Users\prash\.gradle\caches\transforms-4\66d95d3138a2f558d7a7771596c06a55\transformed\material-1.12.0\res
+com.example.foodapp-emoji2-1.3.0-25 C:\Users\prash\.gradle\caches\transforms-4\6cd8cf6e29c1f65e213b34a92999c902\transformed\emoji2-1.3.0\res
+com.example.foodapp-annotation-experimental-1.4.0-26 C:\Users\prash\.gradle\caches\transforms-4\7a651f995d5cda07c951f6a3b77ae414\transformed\annotation-experimental-1.4.0\res
+com.example.foodapp-coordinatorlayout-1.1.0-27 C:\Users\prash\.gradle\caches\transforms-4\8bc149b6773c0eb13a58d432f89a788e\transformed\coordinatorlayout-1.1.0\res
+com.example.foodapp-recyclerview-1.1.0-28 C:\Users\prash\.gradle\caches\transforms-4\8e367113f4243b522b80754e40db80c3\transformed\recyclerview-1.1.0\res
+com.example.foodapp-core-common-2.0.3-29 C:\Users\prash\.gradle\caches\transforms-4\97712f4be978c27b8a6472410f81f9e1\transformed\core-common-2.0.3\res
+com.example.foodapp-glide-4.15.1-30 C:\Users\prash\.gradle\caches\transforms-4\9a48e470acf94dfb9f5a76e069a11465\transformed\glide-4.15.1\res
+com.example.foodapp-core-ktx-1.13.0-31 C:\Users\prash\.gradle\caches\transforms-4\9e27e4fc98c6f26859b6a314b1b401f5\transformed\core-ktx-1.13.0\res
+com.example.foodapp-lifecycle-viewmodel-savedstate-2.6.2-32 C:\Users\prash\.gradle\caches\transforms-4\a6b8d8e41f8d7e5722f5b95006055e54\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.foodapp-cardview-1.0.0-33 C:\Users\prash\.gradle\caches\transforms-4\a996dc859fd65a37ffdb97a6357b4884\transformed\cardview-1.0.0\res
+com.example.foodapp-firebase-common-21.0.0-34 C:\Users\prash\.gradle\caches\transforms-4\ae4e242e8ec0a366d799053b343760cd\transformed\firebase-common-21.0.0\res
+com.example.foodapp-lifecycle-livedata-2.6.2-35 C:\Users\prash\.gradle\caches\transforms-4\b91c372340fc32be04ccf782875e5c11\transformed\lifecycle-livedata-2.6.2\res
+com.example.foodapp-browser-1.4.0-36 C:\Users\prash\.gradle\caches\transforms-4\ba80003129274e5e4d15a944d7c5112c\transformed\browser-1.4.0\res
+com.example.foodapp-lifecycle-livedata-core-2.6.2-37 C:\Users\prash\.gradle\caches\transforms-4\bd68568638af71ead86482082f874366\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.foodapp-transition-1.5.0-38 C:\Users\prash\.gradle\caches\transforms-4\d044b5227edb6f5ef711b228d0700f50\transformed\transition-1.5.0\res
+com.example.foodapp-activity-1.9.3-39 C:\Users\prash\.gradle\caches\transforms-4\d9e904333c343d056f12c10ed4e422c4\transformed\activity-1.9.3\res
+com.example.foodapp-drawerlayout-1.1.1-40 C:\Users\prash\.gradle\caches\transforms-4\e565bc0e815d52b95279b72c6436829b\transformed\drawerlayout-1.1.1\res
+com.example.foodapp-play-services-base-18.5.0-41 C:\Users\prash\.gradle\caches\transforms-4\ec926295145d4417c98738dc3aea8de4\transformed\play-services-base-18.5.0\res
+com.example.foodapp-profileinstaller-1.4.0-42 C:\Users\prash\.gradle\caches\transforms-4\efdcf0a7b3bc61316c32bcc2338fa3b8\transformed\profileinstaller-1.4.0\res
+com.example.foodapp-fragment-1.5.4-43 C:\Users\prash\.gradle\caches\transforms-4\f7e64f5899a227a81d3277655a48b85f\transformed\fragment-1.5.4\res
+com.example.foodapp-appcompat-resources-1.7.0-44 C:\Users\prash\.gradle\caches\transforms-4\f93161a284d2ac046fd037f6944881f6\transformed\appcompat-resources-1.7.0\res
+com.example.foodapp-savedstate-1.2.1-45 C:\Users\prash\.gradle\caches\transforms-4\fb078802a96a544c7096fb943697b7d0\transformed\savedstate-1.2.1\res
+com.example.foodapp-core-runtime-2.2.0-46 C:\Users\prash\.gradle\caches\transforms-4\ffbe6e0aa6173b70389ca78c80cedf7f\transformed\core-runtime-2.2.0\res
