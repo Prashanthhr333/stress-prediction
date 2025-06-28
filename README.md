@@ -4,8 +4,7 @@
 A smart Android app that helps monitor stress levels and provides personalized recommendations based on data inputs like humidity,temperature and step count.
 
 ## Features
-- Real-time stress detection
-- Emergency intervention system
+- Stress detection
 - Personalized food suggestions
 - Clean and responsive UI
 
